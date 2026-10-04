@@ -1,0 +1,17 @@
+[project]
+name = "langchain-academy"
+version = "0.1.0"
+description = "Hands-on work through the LangChain Academy courses on LangChain, LangGraph and LangSmith"
+readme = "README.md"
+authors = [
+    { name = "sivahere4cloud", email = "sivaganeshcloud@gmail.com" }
+]
+requires-python = ">=3.12,<3.14"
+dependencies = []
+
+[project.scripts]
+langchain-academy = "langchain_academy:main"
+
+[build-system]
+requires = ["uv_build>=0.12.13,<0.13.0"]
+build-backend = "uv_build"
