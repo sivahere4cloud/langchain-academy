@@ -7,7 +7,12 @@ authors = [
     { name = "sivahere4cloud", email = "sivaganeshcloud@gmail.com" }
 ]
 requires-python = ">=3.12,<3.14"
-dependencies = []
+dependencies = [
+    "langchain>=1.4.3",
+    "langchain-openai>=1.6.7",
+    "langchain-tavily>=0.2.18",
+    "python-dotenv>=1.2.4",
+]
 
 [project.scripts]
 langchain-academy = "langchain_academy:main"
@@ -15,3 +20,8 @@ langchain-academy = "langchain_academy:main"
 [build-system]
 requires = ["uv_build>=0.12.13,<0.13.0"]
 build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.4.0",
+]
