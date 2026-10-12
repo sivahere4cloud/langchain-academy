@@ -12,9 +12,11 @@ dependencies = [
     "langchain>=1.4.3",
     "langchain-anthropic>=1.7.5",
     "langchain-google-genai>=4.4.0",
+    "langchain-mcp-adapters>=0.3.2",
     "langchain-openai>=1.6.7",
     "langchain-tavily>=0.2.18",
     "python-dotenv>=1.2.4",
+    "pywin32>=312",
     "tavily-python>=0.8.5",
 ]
 
